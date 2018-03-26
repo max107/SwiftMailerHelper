@@ -1,0 +1,36 @@
+{
+    "name": "max107/swiftmailer-helper",
+    "type": "library",
+    "keywords": [
+        "swiftmailer",
+        "helper"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Falaleev Maxim",
+            "email": "max@studio107.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5",
+        "twig/twig": "^2.4",
+        "swiftmailer/swiftmailer": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Max107\\SwiftMailerHelper\\": ""
+        },
+        "exclude-from-classmap": [
+            "/tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Max107\\SwiftMailerHelper\\Tests\\": ""
+        }
+    }
+}
