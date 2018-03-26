@@ -7,7 +7,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace SwiftMailerHelper;
+namespace Max107\SwiftMailerHelper;
 
 class Mail
 {
