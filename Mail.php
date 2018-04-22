@@ -45,6 +45,9 @@ class Mail
     public function createMessage(string $subject, string $to, string $template, array $data = []): \Swift_Message
     {
         $message = new \Swift_Message();
+        $data = array_merge($data, [
+            'subject' => $subject
+        ]);
 
         $message->setSubject($subject);
         $message->setTo($to);
